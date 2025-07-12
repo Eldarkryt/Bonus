@@ -1,0 +1,139 @@
+:root{
+    --white:rgb(228, 216, 204, 1);
+    --gray:rgb(255, 255, 255, 1);
+    --violet:rgb(120, 55, 243, 1);
+}
+
+body{
+    font-family: "Inter",sans-serif;
+    background-color: rgba(231, 223, 216, 1);
+}
+.container{
+width: 1200px;
+padding: 0 20px;
+margin: 0 auto;
+outline: 2px solid red;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 23px;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+
+}
+.nav-link{
+    display: flex;
+    align-items: center;
+    gap: 38px;
+}
+.contact-list{
+    display: flex;
+    align-items: center;
+    gap: 38px;
+}
+.hero{
+    background-color: aquamarine;
+    padding-top: 364px;
+    padding-bottom: 116px;
+}
+.hero-list{
+    display: flex;
+    gap: 16px;
+}
+.hero-title{
+font-weight: 400px;
+font-size: 54px;
+line-height: 1,06;
+color:var(--white);
+ margin-bottom: 14px;
+}
+.hero{
+    color: var(--white);
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 1,6;
+    margin-bottom: 42px;
+}
+.hero-button{
+    background-color: var(--gray);
+    color:#fff ;
+    padding: 14px 34px;
+    border-radius: 100px;
+    border-color: transparent;
+}
+.violet{
+    background-color: var(--violet);
+}
+.offer{
+    display: flex;
+    align-items: center;
+}
+.offer-title{
+    margin-left: 64px;
+    margin-bottom: 15px;
+    font-weight: 400px;
+    font-size: 54px;
+    line-height: 58px;
+}
+.offer-text{
+    margin-left: 64px;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 22px;
+}
+.offer-image{
+    width: 539px;
+    height: 283px;
+    margin-left: 106px;
+}
+.garanty,
+.investment,
+.sell{
+    display: flex;
+    align-items: end;
+    gap: 116px;
+    margin-bottom: 225px;
+}
+.garanty-title,
+.investment-title,
+.sell-title {
+font-weight: 400;
+font-size: 19px;
+line-height: 36px;
+letter-spacing: 0%;
+margin-bottom: 18px;
+}
+.garanty-title-big,
+.investment-title-big,
+.sell-title-big {
+font-weight: 400;
+font-size: 35px;
+line-height: 45.63px;
+letter-spacing: 1px;
+margin-bottom: 11px;
+}
+.garanty-button,
+.investment-button,
+.sell-button {
+    background-color: transparent;
+    border: none;
+font-weight: 400;
+font-size: 12px;
+line-height: 30px;
+letter-spacing: 2px;
+text-transform: uppercase;
+margin-bottom: 48px;
+}
+.garanty-text,
+.investment-text,
+.sell-text {
+font-weight: 400;
+font-size: 14px;
+line-height: 22.08px;
+letter-spacing: 0%;
+}
